@@ -51,7 +51,8 @@ namespace CrossAppBotTemplate
             List<AbstractCommand> universalCommands = new List<AbstractCommand>
             {
                 new ExampleCommand(),
-                new ExampleCommandWithArgumentAndConditions()
+                new ExampleCommandWithArgumentAndConditions(),
+                new ExampleHelpCommand()
             };
             List<AbstractCommand> emojiCommands = new List<AbstractCommand>
             {
@@ -115,9 +116,9 @@ namespace CrossAppBotTemplate
 
             if (textCommandHelper != null && !string.IsNullOrEmpty(text)) 
             {
-                if (textCommandHelper.StringIsTextCommand(text)) 
+               if (textCommandHelper.StringIsTextCommand(text)) 
                 {
-                    AbstractCommand command = textCommandHelper.CreateCommandInstance(text, CommandContext.FromMessage(message));
+                    AbstractCommand command = textCommandHelper.CreateCommandInstance(text, CommandContext.FromMessage(message));                   
                     try
                     {
                         await command.Execute();

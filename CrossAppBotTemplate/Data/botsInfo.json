@@ -1,15 +1,15 @@
 {
     "discord": 
 	{
-        "token": "YOUR_TOKEN"
+        "token": "MTE4NDY4Mzg4NDcyNjcyMjY1MA.GujvZd.YNAQC7-3eOtFJ3XrURdDFrEmh-V4OgxfgxiJcg"
     },
     "telegram": 
 	{
-        "token": "YOUR_TOKEN"
+        "token": "6342451970:AAE-eVaK-nbkJ7FUmipVCxNhmJWHzm-Fh_w"
     },
     "vk": 
 	{
-        "token": "YOUR_TOKEN",
-        "groupId": "YOUR_GROUP_ID"
+        "token": "vk1.a.2Nasu8kzupI2Jh5PTnOKgM7fNxPQcgMpFcNPKUOhTwzihPRP8ecBjDhrxaCrPN3STsjA7VzzP84I7kP_CdrPh_NVLMyNL30w64N-1Z4Sd_ug9Nn3dDXyyPolnrwRB18K7U99n7VWuwTj4PMyp0R-cPnuU8HShRjTYRyTtD_Jwm6zcJkc-KLFphMooKvBoWfeh8U_wcyrGtuS0rP1PdKkHQ",
+        "groupId": "224433419"
     }
 }
