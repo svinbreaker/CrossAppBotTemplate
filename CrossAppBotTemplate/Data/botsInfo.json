@@ -1,0 +1,15 @@
+{
+    "discord": 
+	{
+        "token": "YOUR_TOKEN"
+    },
+    "telegram": 
+	{
+        "token": "YOUR_TOKEN"
+    },
+    "vk": 
+	{
+        "token": "YOUR_TOKEN",
+        "groupId": "YOUR_GROUP_ID"
+    }
+}
